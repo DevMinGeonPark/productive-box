@@ -13,5 +13,5 @@ jobs:
         uses: DevMinGeonPark/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: d0177c33ba54936bba089bfad7be934b
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
